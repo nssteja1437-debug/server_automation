@@ -1,0 +1,12 @@
+[Unit]
+Description=Server Monitoring Python Service
+After=network.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/opt/server-automation
+ExecStart=/opt/server-automation/venv/bin/python /opt/server-automation/server_info.py
+
+[Install]
+WantedBy=multi-user.target
