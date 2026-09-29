@@ -77,4 +77,5 @@ logging.info(
 print("Git practice - version 2")
 print("Monitoring feature added")
 print("Server check feature added")
-print("Feature a change")
+print("Feature A change")
+print("Feature B change")
