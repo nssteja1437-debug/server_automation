@@ -75,3 +75,4 @@ logging.info(
 )
 
 print("Git practice - version 2")
+print("Monitoring feature added")
