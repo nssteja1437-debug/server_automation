@@ -73,4 +73,5 @@ logging.info(
     disk_usage,
     disk_status
 )
- 
+
+print("Git practice - version 2")
